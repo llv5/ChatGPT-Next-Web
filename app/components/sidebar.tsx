@@ -120,7 +120,7 @@ export function SideBar(props: { className?: string }) {
           布谷AI问答
         </div>
         <div className={styles["sidebar-sub-title"]}>
-         一个有gpt4能力问答哟.
+          快速体验GPT-4的工具.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
