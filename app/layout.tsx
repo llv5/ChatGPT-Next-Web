@@ -6,7 +6,7 @@ import { getClientConfig } from "./config/client";
 
 export const metadata = {
   title: "布谷AI问答",
-  description: "一个有gpt4能力问答哟",
+  description: "快速体验GPT-4的工具",
   viewport: {
     width: "device-width",
     initialScale: 1,
