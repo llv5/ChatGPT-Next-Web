@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      "欢迎使用布谷AIGC聊天助手！，看起来您还没有填写API Key，或者填写了过期的API Key，您可以关注公众号 **[布谷创客](https://mp.weixin.qq.com/s/2EQnq8tYPwhznV3WVkssZw)** 回复 **AI未来** 领取最新的API Key，然后在 **[设置](/#/settings)** 填入你自己的 **API Key**",
   },
   Auth: {
     Title: "需要密码",
@@ -220,12 +220,12 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `前往公众号: **[布谷创客](https://www.baidu.com/)**  回复  **秘钥**  免费获取秘钥，然后点击左下角 **[设置](https://chat.aismartgpt.cn/#/settings)** 按钮中的 **API Key** 输入秘钥后解锁 **免费使用**。
+    BotHello: `前往公众号: **[布谷创客](https://mp.weixin.qq.com/s/2EQnq8tYPwhznV3WVkssZw)**  回复  **AI未来**  免费获取秘钥，然后点击左下角 **[设置](/#/settings)** 按钮中的 **API Key** 输入秘钥后解锁 **免费使用**。
     \n**提问：** 你可以在这里放一些常用问题吗?
     **回答：** 当然可以，还可以在这里放一些问题解答，太棒啦!
-    \n常见问题与使用说明点击查看👉 **[问题星球](https://www.baidu.com/)**
+    \n常见问题与使用说明点击查看👉 **[问题星球](https://t.zsxq.com/0feb732p0)**
     \n卡顿或无响应? 可能是用户量太大👉 **[点这里获得独立账号 KEY 使用](http://key.aismartgpt.cn/)**
-    \n欢迎来聊聊🚀  **[布谷创客](https://www.baidu.com/)**`,
+    \n欢迎来聊聊🚀  **[布谷创客](https://mp.weixin.qq.com/s/2EQnq8tYPwhznV3WVkssZw)**`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
