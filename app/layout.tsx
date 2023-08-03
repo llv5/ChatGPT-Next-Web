@@ -3,8 +3,9 @@ import "./styles/globals.scss";
 import "./styles/markdown.scss";
 import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
+import { type Metadata } from 'next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "布谷AI问答",
   description: "快速体验GPT-4的工具",
   viewport: {
